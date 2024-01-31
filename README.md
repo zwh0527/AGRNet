@@ -32,7 +32,7 @@ python sun3d.py --desc_name sift-2000
 ```
 
 ## Reproduce
-The pretrained models of outdoor and indoor scenes will be provided soon.
+The pretrained models of outdoor and indoor scenes have been provided in the [Google Drive](https://drive.google.com/file/d/13cGgzXGc2kYxxJDELEpOiaAwMfANPq9z/view?usp=drive_link).
 
 ### Testing
 Run the test scripts to get results in our paper.
