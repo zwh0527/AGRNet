@@ -75,9 +75,7 @@ python demo_datasets.py
 ```
 Here is an example of output.
 
-<img src="assets/AGRNet_200_init_image_pair.png" width="25%" height="25%">
-<img src="assets/AGRNet_200_init_matching.png" width="25%" height="25%">
-<img src="assets/AGRNet_200_inliers.png" width="25%" height="25%">
+<img src="assets/AGRNet_200_init_image_pair.png" width="30%" height="30%"><img src="assets/AGRNet_200_init_matching.png" width="30%" height="30%"><img src="assets/AGRNet_200_inliers.png" width="30%" height="30%">
 
 ### Demo on a single pair of unknown images
 You can also generate inliers inferred by AGRNet on a singel pair of unknown images. You can specify `line 77` and `line 78` for image paths, and `line 79` for model weights.
@@ -86,10 +84,8 @@ python demo_single_pair.py
 ```
 Here is an example of output. The initial matching, output by coarse-level AGR-Block, output by fine-level AGR-Block, and output by joint predictor (final predictions) will be generated, respectively.
 
-<img src="assets/init_matching.png" width="40%" height="40%">
-<img src="assets/1st_prune_matching.png" width="40%" height="40%">
-<img src="assets/2nd_prune_matching.png" width="40%" height="40%">
-<img src="assets/inliers.png" width="40%" height="40%">
+<img src="assets/init_matching.png" width="45%" height="45%"><img src="assets/1st_prune_matching.png" width="45%" height="45%">
+<img src="assets/2nd_prune_matching.png" width="45%" height="45%"><img src="assets/inliers.png" width="45%" height="45%">
 
 ## Acknowledgements
 This repository was developed from [OANet](https://github.com/zjhthu/OANet) and [NCMNet](https://github.com/xinliu29/NCMNet), and we are grateful for their implementations.
